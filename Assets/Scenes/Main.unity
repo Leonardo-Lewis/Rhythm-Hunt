@@ -442,7 +442,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: I Key - Attack High
+  m_Text: Q Key - Attack High
 --- !u!222 &560937385
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -521,7 +521,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: P Key - Attack Low
+  m_Text: E Key - Attack Low
 --- !u!222 &667954591
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -783,7 +783,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: O Key - Attack Straight
+  m_Text: W Key - Attack Straight
 --- !u!222 &980458695
 CanvasRenderer:
   m_ObjectHideFlags: 0
