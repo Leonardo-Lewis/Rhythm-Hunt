@@ -8,8 +8,8 @@ public class PlayerController : MonoBehaviour
     public KeyCode weaponKey;
 
     public float swingRate;
-    private float timePassed;
-    private bool canSwing;
+    public float timePassed;
+    public bool canSwing;
 
     void Start()
     {
