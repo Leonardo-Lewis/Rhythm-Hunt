@@ -5,24 +5,38 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject weaponObject;
+    public KeyCode weaponKey;
 
-    // Start is called before the first frame update
+    public float swingRate;
+    private float timePassed;
+    private bool canSwing;
+
     void Start()
     {
-        
+        canSwing = true;
+        timePassed = 0.0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(weaponKey) && (canSwing == true))
         { 
             Swing();
+            canSwing = false;
+            timePassed = 0.0f;
+
+        }
+
+        timePassed += Time.deltaTime;
+
+        if (timePassed >= swingRate)
+        {
+            canSwing = true;
         }
     }
 
     private void Swing()
     {
-        Instantiate(weaponObject, transform.position, transform.rotation); 
+       Instantiate(weaponObject, transform.position, transform.rotation); 
     }
 }
