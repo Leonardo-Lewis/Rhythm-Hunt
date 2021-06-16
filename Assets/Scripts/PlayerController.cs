@@ -19,19 +19,19 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(weaponKey) && (canSwing == true))
+        if (Input.GetKeyUp(weaponKey) && (canSwing == true))
         { 
             Swing();
-            canSwing = false;
-            timePassed = 0.0f;
+            //canSwing = false;
+            //timePassed = 0.0f;
 
         }
 
         timePassed += Time.deltaTime;
 
-        if (timePassed >= swingRate)
+       // if (timePassed >= swingRate)
         {
-            canSwing = true;
+            //canSwing = true;
         }
     }
 

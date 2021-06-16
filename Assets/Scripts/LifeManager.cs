@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class LifeManager : MonoBehaviour
 {
     public float numberOfLives;
+    public GameObject heart3; 
+    public GameObject heart2;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +21,14 @@ public class LifeManager : MonoBehaviour
         if (numberOfLives == 0)
         {
             SceneManager.LoadScene(0);
+        }
+        if(numberOfLives == 2)
+        {
+            heart3.gameObject.SetActive(false);
+        }
+        if (numberOfLives == 1)
+        {
+            heart2.gameObject.SetActive(false);
         }
     }
 
