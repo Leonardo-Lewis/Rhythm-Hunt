@@ -6,15 +6,10 @@ public class Sword : MonoBehaviour
 {
     public float lifeTime;
 
-    // Start is called before the first frame update
+    //destroys the weapon object after a certain amount of time
     private void Start()
     {
         Destroy(gameObject, lifeTime);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

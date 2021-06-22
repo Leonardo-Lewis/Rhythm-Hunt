@@ -9,13 +9,17 @@ public class LifeManager : MonoBehaviour
     public GameObject heart3; 
     public GameObject heart2;
 
-    // Start is called before the first frame update
+
+    //sets the number of lives at the start pf the game
     void Start()
     {
         numberOfLives = 3;
     }
 
+
     // Update is called once per frame
+
+    //Every frame the game checks the number of lives, removing certain objects or loading the "Game Over" scene based on the number of lives
     void Update()
     {
         if (numberOfLives == 0)
@@ -32,6 +36,7 @@ public class LifeManager : MonoBehaviour
         }
     }
 
+    //subtracts from the number of lives when colliding with an object tagged "Enemy."
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy")

@@ -15,6 +15,8 @@ public class EnemyType1 : MonoBehaviour
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
 
+
+    //Destroys the Game Object and spawns a particle system when colliding with objects marked "PLayer" or "Weapon"
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "PlayerWeapon")
