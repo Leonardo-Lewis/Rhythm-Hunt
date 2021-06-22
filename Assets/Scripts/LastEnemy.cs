@@ -9,7 +9,7 @@ public class LastEnemy : MonoBehaviour
     {
         if (other.tag == "PlayerWeapon")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("Victory");
         }
     }
 }

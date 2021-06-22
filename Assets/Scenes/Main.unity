@@ -157,7 +157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16
+      value: 16.75
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -226,7 +226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -242,7 +242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 18.5
+      value: 19.25
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -355,18 +355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy (6)
       objectReference: {fileID: 0}
-    - target: {fileID: 537319097023458496, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
-      propertyPath: m_TagString
-      value: Enemy
-      objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
-    - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
-      propertyPath: bloodSplatter
-      value: 
-      objectReference: {fileID: 3910029719339695665, guid: cce3178b633c5d4448f1f8f7ff938fff, type: 3}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -377,7 +369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.5
+      value: 5.25
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -439,7 +431,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560937382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.6595237}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 1257313128}
@@ -450,7 +442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -308.5, y: 230}
+  m_AnchoredPosition: {x: -308.5, y: 338.00394}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &560937384
@@ -481,7 +473,7 @@ MonoBehaviour:
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 0
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
@@ -547,7 +539,7 @@ MonoBehaviour:
   weaponSpawner1: {fileID: 822308987}
   weaponSpawner2: {fileID: 1713304446}
   weaponSpawner3: {fileID: 1495331613}
-  swingRate: 0.3
+  swingRate: 0.2
   timePassed: 0
   canSwing: 0
 --- !u!1001 &614611905
@@ -567,7 +559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -583,7 +575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23.75
+      value: 24.5
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -645,7 +637,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667954588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.6595237}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 1395268055}
@@ -653,7 +645,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -309.4, y: 104}
+  m_AnchoredPosition: {x: -309.4, y: 212.00394}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &667954590
@@ -684,7 +676,7 @@ MonoBehaviour:
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 0
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
@@ -715,7 +707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -731,7 +723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.5
+      value: 8.25
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -784,7 +776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -800,7 +792,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13
+      value: 13.75
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -862,7 +854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -878,7 +870,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 22.25
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -940,7 +932,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980458692}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.6595237}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 1395268055}
@@ -948,7 +940,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -308.5, y: 168}
+  m_AnchoredPosition: {x: -308.5, y: 276.00394}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &980458694
@@ -979,7 +971,7 @@ MonoBehaviour:
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 0
-    m_AlignByGeometry: 0
+    m_AlignByGeometry: 1
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
@@ -1111,7 +1103,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049265183}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.87450814}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 560937383}
@@ -1119,7 +1111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60.75, y: -111.5}
+  m_AnchoredPosition: {x: -222.80267, y: -111.47849}
   m_SizeDelta: {x: 16, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1049265185
@@ -1174,7 +1166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1190,7 +1182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 23
+      value: 23.75
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1243,7 +1235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1259,7 +1251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.5
+      value: 9.25
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1321,7 +1313,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257313127}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.87450814}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 560937383}
@@ -1329,7 +1321,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60.75, y: -91.75}
+  m_AnchoredPosition: {x: -222.80264, y: -91.72849}
   m_SizeDelta: {x: 16, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1257313129
@@ -1384,7 +1376,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1400,7 +1392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12
+      value: 12.75
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1453,7 +1445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1469,7 +1461,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.75
+      value: 28.5
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1522,7 +1514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1538,7 +1530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15
+      value: 15.75
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1641,9 +1633,9 @@ Canvas:
   m_GameObject: {fileID: 1395268051}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
+  m_RenderMode: 1
+  m_Camera: {fileID: 1782856320}
+  m_PlaneDistance: 2
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
@@ -1697,7 +1689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1713,7 +1705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14
+      value: 14.75
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1766,7 +1758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1782,7 +1774,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.5
+      value: 20.25
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1835,7 +1827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1851,7 +1843,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6
+      value: 6.75
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1909,7 +1901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1925,7 +1917,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.5
+      value: 22.25
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1978,7 +1970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -1994,7 +1986,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.75
+      value: 20.5
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2139,7 +2131,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830934344}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.87450814}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 560937383}
@@ -2147,7 +2139,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -60.75, y: -132.8}
+  m_AnchoredPosition: {x: -222.80267, y: -132.7785}
   m_SizeDelta: {x: 16, y: 16}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1830934346
@@ -2202,7 +2194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -2218,7 +2210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.75
+      value: 25.5
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2271,7 +2263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -2287,7 +2279,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.5
+      value: 10.25
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2340,7 +2332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -2356,7 +2348,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 25.75
+      value: 26.5
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2409,7 +2401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: speed
-      value: 1.5
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 668385876583276133, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: bloodSplatter
@@ -2425,7 +2417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.75
+      value: 21.5
       objectReference: {fileID: 0}
     - target: {fileID: 1967766153029345768, guid: 08023255d22c3284685c77a2a1cbae5a, type: 3}
       propertyPath: m_LocalRotation.x

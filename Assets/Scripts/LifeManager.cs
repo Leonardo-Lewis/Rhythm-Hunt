@@ -20,7 +20,7 @@ public class LifeManager : MonoBehaviour
     {
         if (numberOfLives == 0)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("GameOver");
         }
         if(numberOfLives == 2)
         {
