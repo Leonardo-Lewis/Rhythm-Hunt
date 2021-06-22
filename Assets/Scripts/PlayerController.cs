@@ -5,7 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public GameObject weaponObject;
-    public KeyCode weaponKey;
+    public GameObject weaponSpawner1;
+    public GameObject weaponSpawner2;
+    public GameObject weaponSpawner3;
 
     public float swingRate;
     public float timePassed;
@@ -19,24 +21,38 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp(weaponKey) && (canSwing == true))
+        if (Input.GetKeyDown(KeyCode.Q) && (canSwing == true))
         { 
-            Swing();
-            //canSwing = false;
-            //timePassed = 0.0f;
+            Swing(weaponSpawner1.transform.position);
+            canSwing = false;
+            timePassed = 0.0f;
 
         }
+        else if (Input.GetKeyDown(KeyCode.W) && (canSwing == true))
+            {
+                Swing(weaponSpawner2.transform.position);
+                canSwing = false;
+                timePassed = 0.0f;
+
+            }
+        else if (Input.GetKeyDown(KeyCode.E) && (canSwing == true))
+            {
+                Swing(weaponSpawner3.transform.position);
+                canSwing = false;
+                timePassed = 0.0f;
+
+            }
 
         timePassed += Time.deltaTime;
 
-       // if (timePassed >= swingRate)
+        if (timePassed >= swingRate)
         {
-            //canSwing = true;
+            canSwing = true;
         }
     }
 
-    private void Swing()
+    private void Swing(Vector3 swordPosition)
     {
-       Instantiate(weaponObject, transform.position, transform.rotation); 
+       Instantiate(weaponObject, swordPosition, transform.rotation); 
     }
 }

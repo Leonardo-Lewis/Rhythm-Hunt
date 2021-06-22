@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5714140390565752161}
   - component: {fileID: 5993586761167029984}
   m_Layer: 0
-  m_Name: Weapon1
+  m_Name: Weapon
   m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b1b17bd296162445a10a7bce0a586bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifeTime: 0.5
+  lifeTime: 0.2
 --- !u!54 &5993586761167029984
 Rigidbody:
   m_ObjectHideFlags: 0
