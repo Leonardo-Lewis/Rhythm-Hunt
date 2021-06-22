@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class EnemyType1 : MonoBehaviour
 {
     public float speed;
+    public GameObject bloodSplatter;
 
     // Update is called once per frame
     void Update()
@@ -19,6 +20,7 @@ public class EnemyType1 : MonoBehaviour
         if (other.tag == "PlayerWeapon")
         {
             Destroy(gameObject);
+            Instantiate(bloodSplatter, transform.position, transform.rotation);
         }
         if (other.tag == "Player")
         {
