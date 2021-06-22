@@ -110,6 +110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  bloodSplatter: {fileID: 3910029719339695665, guid: cce3178b633c5d4448f1f8f7ff938fff, type: 3}
+  lLifeTime: 0.1
 --- !u!1 &7947057105216038734
 GameObject:
   m_ObjectHideFlags: 0
