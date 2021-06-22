@@ -23,11 +23,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        //if statement that assigns different keys for different locations taht the weapon object can be instantiated in, prevents the weapon object from being instantiated again
+        //if statement that assigns different keys for different locations that the weapon object can be instantiated in
         if (Input.GetKeyDown(KeyCode.Q) && (canSwing == true))
         { 
             Swing(weaponSpawner1.transform.position);
             canSwing = false;
+            //Prevents the object from  being instantiated again
             timePassed = 0.0f;
 
         }
